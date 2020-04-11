@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: #fff;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+}
+
+img {
+    width: 420px;
+
+
+}
+
+.container {
+    width: 901px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.header_nav {
+    margin: 0 auto;
+
+}
+
+.header_nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_link {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+    display: block;
+}
+
+.nav_link:hover {
+    color: #03a9f4;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.content_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+
+.card {
+    width: 420px;
+    display: inline-block;
+    margin-bottom: 45px;
+
+
+}
+
+.card-img {
+    margin-bottom: 25px;
+}
+
+.img_text {
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+    border: 1px solid #626262;
+    padding: 22px 32px;
+
+
+}
+
+.btn:hover {
+    color: #03a9f4;
+    border: 1px solid #03a9f4;
+}
+
+.btn_inner {
+    display: flex;
+    justify-content: space-around;
+
+}
